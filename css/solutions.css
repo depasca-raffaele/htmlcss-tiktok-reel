@@ -25,7 +25,7 @@
 .sidebar-links{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 13px;
 }
 .sidebar-icons{
     font-size: 22px;
@@ -59,4 +59,29 @@
 }
 .nav-txt{
     font-size: 0.7rem;
+}
+
+/* BONUS CSS */
+
+.logo-icon::after{
+    content: "+";
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 20px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    position: absolute;
+    top: 0;
+    translate: 45% 120%;
+}
+.profile-header .profile-link:last-child::after{
+    content: "";
+    display: block;
+    background: white;
+    width: 35px;
+    height: 2px;
+    translate: 25%;
 }
