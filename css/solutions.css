@@ -1,18 +1,19 @@
+.opacity{
+    opacity: 0.5;
+}
+
 .reel-header{
     display: flex;
     justify-content: space-between;
     color: white;
     padding: 0 10px;
     font-size: 1.4rem;
+    min-height: 50px;
 }
 .profile-header{
     display: flex;
     font-size: 1rem;
-    opacity: 0.5;
     gap: 10px;
-}
-.profile-header .profile-link:last-child{
-    opacity: 1;
 }
 
 .sidebar{
@@ -45,4 +46,17 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    min-height: 75px;
+    background: black;
+    font-size: 1.2rem;
+}
+.add-icon{
+    transform: rotate(90deg);
+    font-size: 2rem;
+}
+.navbar-items{
+    width: calc(100% / 5);
+}
+.nav-txt{
+    font-size: 0.7rem;
 }
