@@ -34,6 +34,8 @@
 .logo{
     width: 35px;
     aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 .sidebar-bio{
     display: flex;
@@ -96,4 +98,19 @@
     top: 0;
     position: absolute;
     translate: 64px 10px;   
+}
+.mail-icon::after{
+    content: "12";
+    opacity: 2;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: block;
+    width: 15px;
+    aspect-ratio: 1;
+    background: red;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 25%;
+
 }
